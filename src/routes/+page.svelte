@@ -177,6 +177,19 @@
   $: content && updateCounts();
 </script>
 
+<svelte:head>
+	<title>zsh.one - Simple Text Sharing</title>
+	<meta name="description" content="A minimalist text sharing platform" />
+	<meta property="og:title" content="zsh.one" />
+	<meta property="og:description" content="A minimalist text sharing platform" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://zsh.one" />
+	<meta property="og:site_name" content="zsh.one" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="zsh.one - Simple Text Sharing" />
+	<meta name="twitter:description" content="A minimalist text sharing platform" />
+</svelte:head>
+
 <div class="max-w-4xl mx-auto p-4">
   {#if error}
     <div class="mb-4 border border-red-500 p-4 text-red-500 font-mono">

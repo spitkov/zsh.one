@@ -5,18 +5,7 @@
 	let { children } = $props();
 </script>
 
-<svelte:head>
-	<title>zsh.one - Simple Text Sharing</title>
-	<meta name="description" content="A minimalist, terminal-style text sharing platform" />
-	<meta property="og:title" content="zsh.one - Simple Text Sharing" />
-	<meta property="og:description" content="A minimalist, terminal-style text sharing platform" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://zsh.one" />
-	<meta property="og:site_name" content="zsh.one" />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="zsh.one - Simple Text Sharing" />
-	<meta name="twitter:description" content="A minimalist, terminal-style text sharing platform" />
-</svelte:head>
+
 
 <div class="min-h-screen bg-[#131313] text-[#70A5B9] font-mono">
 	<nav class="border-b border-[#70A5B9]/20">
